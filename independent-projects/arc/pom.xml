@@ -43,16 +43,16 @@
         <maven.compiler.source>11</maven.compiler.source>
         <maven.compiler.release>11</maven.compiler.release>
         <!-- Versions -->
-        <version.cdi>3.0.0</version.cdi>
-        <version.jta>2.0.0</version.jta>
+        <version.cdi>4.0.1</version.cdi>
+        <version.jta>2.0.1</version.jta>
         <version.jandex>2.4.3.Final</version.jandex>
         <version.junit5>5.9.0</version.junit5>
         <version.maven>3.8.6</version.maven>
         <version.assertj>3.23.1</version.assertj>
         <version.jboss-logging>3.5.0.Final</version.jboss-logging>
-        <version.jakarta-annotation>2.0.0</version.jakarta-annotation>
+        <version.jakarta-annotation>2.1.0</version.jakarta-annotation>
         <version.gizmo>1.1.0.Final</version.gizmo>
-        <version.jpa>3.0.0</version.jpa>
+        <version.jpa>3.1.0</version.jpa>
         <version.mutiny>1.6.0</version.mutiny>
 
         <version.surefire.plugin>3.0.0-M7</version.surefire.plugin>
@@ -148,6 +148,7 @@
                 <version>${version.jakarta-annotation}</version>
                 <!-- scope>provided</scope -->
             </dependency>
+
             <dependency>
                 <groupId>jakarta.el</groupId>
                 <artifactId>jakarta.el-api</artifactId>
