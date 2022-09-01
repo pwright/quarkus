@@ -5,7 +5,7 @@
     <parent>
         <artifactId>quarkus-build-parent</artifactId>
         <groupId>io.quarkus</groupId>
-        <version>999-SNAPSHOT</version>
+        <version>999-jakarta-SNAPSHOT</version>
         <relativePath>../build-parent/pom.xml</relativePath>
     </parent>
     <modelVersion>4.0.0</modelVersion>
@@ -165,7 +165,7 @@
                 <module>kafka-sasl-elytron</module>
                 <module>kafka-oauth-keycloak</module>
                 <module>kafka-snappy</module>
-                <module>kafka-avro</module>
+                <!-- <module>kafka-avro</module> -->
                 <module>kafka-avro-apicurio2</module>
                 <module>kafka-streams</module>
                 <module>kafka-devservices</module>
